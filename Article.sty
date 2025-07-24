@@ -1,0 +1,61 @@
+🌍 Leveraging AI to Combat Climate Change: CO₂ Emissions Prediction Using Machine Learning
+By Sebabatso & Team
+
+Climate change remains one of the most pressing global challenges of our time. At the heart of this crisis is the rise in carbon dioxide (CO₂) emissions, which are accelerating global warming, disrupting weather patterns, and threatening biodiversity and human health. To tackle this complex issue, our team focused on United Nations Sustainable Development Goal 13 (Climate Action) and built an AI-driven solution to predict CO₂ emissions using machine learning.
+
+🧠 The Problem
+CO₂ emissions are the primary contributor to anthropogenic climate change. However, many regions lack reliable data and tools to accurately measure or predict these emissions, particularly in fast-developing or heavily industrialized areas. Without timely predictions, it becomes difficult to implement policies, plan for environmental risks, or monitor progress toward decarbonization goals.
+
+🤖 The Solution: AI-Powered Emissions Forecasting
+Our team developed a supervised learning model to predict CO₂ emissions based on a variety of environmental and socio-economic factors, including:
+
+Industrial activity
+
+Energy usage
+
+Weather and temperature trends
+
+Traffic and transportation data
+
+We trained and tested the model using a publicly available dataset from Kaggle, specifically the “climate-change-dataset” by bhadramohit. Our aim was to generate region-specific predictions that could guide policymakers, researchers, and communities in making informed climate decisions.
+
+🔧 Tools and Techniques
+We used Python, Pandas, and Scikit-learn to process the data and build multiple models, including Linear Regression, Random Forest, and XGBoost. After evaluating model performance using metrics like RMSE and R² score, we selected the best-performing model to generate predictive visualizations of CO₂ emissions trends.
+
+Here’s a snippet showing how we imported the dataset:
+
+python
+Copy
+Edit
+import kagglehub
+path = kagglehub.dataset_download("bhadramohit/climate-change-dataset")
+We also visualized the historical and predicted CO₂ levels to showcase the model’s forecasting ability and identify potential emission hotspots.
+
+📊 Why It Matters
+Accurate CO₂ prediction models can:
+
+Inform national and regional climate policies
+
+Enhance early warning systems for environmental degradation
+
+Support climate finance mechanisms and carbon pricing
+
+Enable citizen engagement through data-driven transparency
+
+Our project represents just one part of a broader ecosystem of AI applications for climate resilience. Some of the ideas we brainstormed include:
+
+Wildfire detection using satellite imagery and CNNs
+
+Renewable energy forecasting via LSTM models
+
+Flood risk prediction using weather and topographic data
+
+Sentiment analysis on climate-related social media posts
+
+Energy optimization in smart cities using Reinforcement Learning
+
+🚀 The Road Ahead
+We plan to refine our model by integrating real-time satellite and sensor data, expanding to other climate variables like methane or NOx emissions, and deploying our solution via a web-based dashboard. This would allow communities, local governments, and NGOs to interact with climate predictions in a practical, user-friendly way.
+
+Conclusion:
+Artificial Intelligence offers unprecedented tools to understand, predict, and mitigate climate change. Through this project, we’ve taken a small but significant step toward achieving SDG 13 – Climate Action. With continued innovation and collaboration, we believe AI can be a catalyst for a more sustainable, data-driven future.
